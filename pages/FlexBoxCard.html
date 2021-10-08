@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<title>FlexBox-Card-Example</title>
+<style>
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .card {
+        flex: 0 0 200px;
+        margin: 10px;
+        border: 3px solid rgb(79, 107, 235);
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    .card .text {
+        padding: 20px 20px 20px;
+    }
+
+    .card .text>button {
+        background:rgb(79, 107, 235);
+        border: 1;
+        color: rgb(243, 243, 237);
+        padding: 10px;
+        width: 100%;
+    }
+</style>
+
+<body>
+    <main class="cards">
+        <article class="card">
+            <img src="../assets/image.png" alt="Sample photo">
+            <div class="text">
+                <h3>MAX VERSTAPPEN</h3>
+                <p>A VERY AGGRESIVE DUTCH RACER WHO IS A CHAMPIONSHIP CONTENDER FOR THE F1 2021 SEASON</p>
+                <button>Here's his records</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../assets/image-lewis.png" alt="Sample photo">
+            <div class="text">
+                <h3>LEWIS HAMILTON</h3>
+                <p>A BRIT LEGEND WHO HAS BEEN DOMINATING F1 SINCE 2007, FIGHTING MAX FOR THE WORLD CHAMPIONSHIP</p>
+                <button>Here's his records</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../assets/image-lando.jpeg" alt="Sample photo">
+            <div class="text">
+                <h3>LANDO NORRIS</h3>
+                <p>ANOTHER BRIT WHO"S EXCELLING IN A MCLAREN SEEMS LIKELY TO BE A FUTURE WORLD CHAMPION</p>
+                <button>Here's his records</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../assets/image-dannyric.jpeg" alt="Sample photo">
+            <div class="text">
+                <h3>DANIEL RICCIARDO</h3>
+                <p>HONEY BADGER, THE AUSTRALIAN STAR WHO WAS DOMINATING IN RED BULL,IS NOW EXCELLING IN A MCLAREN</p>
+                <button>Here's his records</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../assets/image-kimi.jpeg" alt="Sample photo">
+            <div class="text">
+                <h3>KIMI RAIKONNEN</h3>
+                <p>ICE MAN WHO WAS DOMINATING IN A FERRARI BEFORE 2017 IS RETIRING NEXT SEASON</p>
+                <button>Here's his records</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../assets/image-george.jpeg" alt="Sample photo">
+            <div class="text">
+                <h3>GEORGE RUSSEL</h3>
+                <p>THE UPCOMING BRIT HAS HIS SEAT SEALED IN MERCEDES, THE 2nd BEST CAR ON THE GRID AND HAS THE HIGHEST CHANCE OF BECOMING THE FUTURE WORLD CHAMPION</p>
+                <button>Here's his records</button>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
