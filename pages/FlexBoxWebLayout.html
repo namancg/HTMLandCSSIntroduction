@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<title>Example1</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: row;
+        margin: 2em;
+    }
+
+    .outer-col-1 {
+        background: #D7E8D4;
+        flex: 1;
+    }
+
+    .outer-col-2 {
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        align-content: center;
+        flex: 4;
+    }
+
+    .inner-row {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .inner-col {
+        flex: 5;
+
+    }
+
+    article {
+        margin: 10px;
+        background:rgb(76, 105, 89);
+        text-align: left;
+        padding: 10px;
+    }
+
+    .inner-row aside {
+        background: beige;
+        flex: 1;
+    }
+
+    header,
+    footer {
+        background: yellowgreen;
+        text-align: center;
+    }
+
+    header,
+    footer,
+    nav,
+    aside {
+        padding: 10px;
+        text-align: center;
+
+    }
+</style>
+
+<body>
+    <nav class="outer-col-1">
+        <h1>nav</h1>
+    </nav>
+    <div class="outer-col-2">
+        <header>
+            <h1>HEADER - Sample FlexBox Example - 1</h1>
+        </header>
+        <div class="inner-row">
+            <div class="inner-col">
+                <article>
+                    <h2>First article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </p>
+                </article>
+                <article>
+                    <h2>Second Article</h2>
+                    <p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the
+                        centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two
+                        bails balanced on three stumps. The game proceeds when a player on the fielding team, called the
+                        bowler, "bowls" (propels) the ball from one end of the pitch towards the wicket at the other
+                        end. The batting side's players score runs by striking the bowled ball with a bat and running
+                        between the wickets, while the bowling side tries to prevent this by keeping the ball within the
+                        field and getting it to either wicket, and dismiss each batter (so they are "out"). Means of
+                        dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by
+                        the fielding side either catching a hit ball before it touches the ground, or hitting a wicket
+                        with the ball before a batter can cross the crease line in front of the wicket to complete a
+                        run. When ten batters have been dismissed, the innings ends and the teams swap roles. The game
+                        is adjudicated by two umpires, aided by a third umpire and match referee in international
+                        matches.</p>
+                </article>
+                <article>
+                    <h3>Third article</h3>
+                    <p>Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds. In
+                        humans and birds, they cause respiratory tract infections that can range from mild to lethal.
+                        Mild illnesses in humans include some cases of the common cold (which is also caused by other
+                        viruses, predominantly rhinoviruses), while more lethal varieties can cause SARS, MERS, and
+                        COVID-19. In cows and pigs they cause diarrhea, while in mice they cause hepatitis and
+                        encephalomyelitis..</p>
+                </article>
+                <footer>
+                    <h1>Footer</h1>
+                </footer>
+            </div>
+            <aside>
+                <h1>Aside</h1>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>
